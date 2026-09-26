@@ -73,9 +73,9 @@ The daily [update workflow](.github/workflows/update.yml) runs at 12:00 UTC, che
 
 Pass a stable version such as `./scripts/update.sh 1.18.32` to update to a specific release. The workflow can also be started manually from GitHub Actions.
 
-## Credits
+## Credits and mirrors
 
-[GitHub](https://github.com/Fractal-Tess/opencode-flake)
+[GitHub](https://github.com/Fractal-Tess/opencode-flake) · Gitadel: `ssh://git@neo.netbird.cloud:2222/fractal-tess/opencode-flake.git`
 
 The flake packaging is [MIT](LICENSE). opencode is [MIT licensed](https://github.com/sst/opencode/blob/dev/LICENSE); the upstream notice reads "Copyright (c) 2025 opencode", covering the opencode authors. The runtime wrapping follows the [nixpkgs `opencode` derivation](https://github.com/NixOS/nixpkgs/tree/master/pkgs/by-name/op/opencode).
 
