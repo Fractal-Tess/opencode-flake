@@ -7,7 +7,7 @@
 <p align="center">
   <a href="flake.nix"><img src="https://img.shields.io/badge/Nix-flake-5277C3?logo=nixos&logoColor=white" alt="Nix flake" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" /></a>
-  <a href="https://github.com/sst/opencode/releases/tag/v1.18.33"><img src="https://img.shields.io/badge/opencode-1.18.33-black" alt="opencode 1.18.33" /></a>
+  <a href="https://github.com/sst/opencode/releases/tag/v1.18.34"><img src="https://img.shields.io/badge/opencode-1.18.34-black" alt="opencode 1.18.34" /></a>
 </p>
 
 [opencode](https://github.com/sst/opencode) is an AI coding agent built for the terminal.
@@ -71,7 +71,7 @@ The daily [update workflow](.github/workflows/update.yml) runs at 12:00 UTC, che
 ./scripts/update.sh
 ```
 
-Pass a stable version such as `./scripts/update.sh 1.18.33` to update to a specific release. The workflow can also be started manually from GitHub Actions.
+Pass a stable version such as `./scripts/update.sh 1.18.34` to update to a specific release. The workflow can also be started manually from GitHub Actions.
 
 ## Credits and mirrors
 
