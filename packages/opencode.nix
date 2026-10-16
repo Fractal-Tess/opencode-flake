@@ -8,15 +8,15 @@
 }:
 
 let
-  version = "1.19.0";
+  version = "1.19.3";
   sources = {
     x86_64-linux = {
       asset = "opencode-linux-x64.tar.gz";
-      hash = "sha256-e7nmGtb+rPLonBCmosGEDj3kIgu1C6H8cRDzGAYHauw=";
+      hash = "sha256-E6j7KXgwIHG4b51+ANqciJX5zYRpeDecO9xqUzNTbJs=";
     };
     aarch64-linux = {
       asset = "opencode-linux-arm64.tar.gz";
-      hash = "sha256-6YQdQ9PhqPNu0mkVktO4tPsJfmBsi1WaJ3obhFhA4ms=";
+      hash = "sha256-eQCBimqYiB7butq0t1JZQO/zuXUAQMIASB+fVsrO5AU=";
     };
   };
   source = sources.${stdenv.hostPlatform.system};
